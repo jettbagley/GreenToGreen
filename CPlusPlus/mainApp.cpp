@@ -39,7 +39,7 @@ void getMoney()
 
 	do
 	{
-		cout << "\nEnter the ammount of money you want to convert: ";
+		cout << "\nEnter the amount of money you want to convert: ";
 		cin >> money;
 
 		if (money <= 0)
@@ -57,13 +57,13 @@ void getStuff()
 
 	do
 	{
-		cout << "\nEnter the ammount of less than 24 ounce bottles you have: ";
+		cout << "\nEnter the amount of less than 24 ounce bottles you have: ";
 		cin >> bottleA;
 
-		cout << "Enter the ammount of 24 or greater than bottles you have: ";
+		cout << "Enter the amount of 24 or greater than bottles you have: ";
 		cin >> bottleB;
 
-		cout << "Enter the ammount of paper you have in tons: ";
+		cout << "Enter the amount of paper you have in tons: ";
 		cin >> paper;
 
 		if (paper < 0 || bottleA < 0 || bottleB < 0)

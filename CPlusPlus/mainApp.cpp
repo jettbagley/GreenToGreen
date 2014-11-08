@@ -101,3 +101,4 @@ void convertStuffMoney(int bottleA, int bottleB, double paper)
 	cout << "You would get $" << setprecision(2) << fixed << (bottleB * 0.1) << " for your " << bottleB << " 24 ounce or greater bottles.\n";
 	cout << "You would get $" << setprecision(2) << fixed << (paper * 50) << " for your " << paper << " tons of paper.\n";
 }
+

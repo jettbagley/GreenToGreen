@@ -43,7 +43,7 @@ void getMoney()
 		cin >> money;
 
 		if (money <= 0)
-			cout << "\nNOT APPROVED AMMOUNT\n";
+			cout << "\nNOT APPROVED AMOUNT\n";
 	} while (money <= 0);
 
 	cout << endl;
